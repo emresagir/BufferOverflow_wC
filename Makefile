@@ -18,5 +18,3 @@ sec_en :
 gdb : 
 	gdb --args vulnerable_program payload.bin
 
-exploit : 
-	. exploit.sh 
