@@ -29,12 +29,14 @@ you'll need to bypass those protections.
 ## RUN
 
 After disabling the security and making sure of CANARY or PIE is not on, 
-compile it with 
+compile it with
+
     make all
 
 this will generate the vulnerable_program
 
 Then with 
+
     . exploit.sh
 
 Follow the prompt and enter the buffer size, which is 100 bytes in this case. 
